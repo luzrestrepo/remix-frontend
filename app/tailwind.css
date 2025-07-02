@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color-scheme: light dark;
+}
+
 html,
 body {
   @apply bg-white dark:bg-gray-950;
@@ -9,4 +13,8 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+}
+
+body {
+  min-height: 100vh;
 }

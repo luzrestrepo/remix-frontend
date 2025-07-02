@@ -31,3 +31,5 @@ export default function Index() {
     </div>
   );
 }
+
+// Trigger redeploy on GitHub Actions 🚀
